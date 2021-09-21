@@ -1,4 +1,6 @@
+NAME=echo
+
 all:
 	GOOS=linux go build main.go
-	zip function.zip main
-	rm main
+	zip $(NAME).zip $(NAME)
+	rm $(NAME)
