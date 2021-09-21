@@ -15,7 +15,7 @@ import (
 
 type Response struct {
 	Type string `json:"response_type"`
-	Text string `json:"string"`
+	Text string `json:"text"`
 }
 
 // A simple echo command
